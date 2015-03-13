@@ -1,0 +1,930 @@
+[
+  {
+    "type": "srifle_EBR_F",
+    "name": "Mk14 Mod 1 EBR",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  { 
+    "type": "srifle_DMR_01_F",
+    "name": "VS-121",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "10Rnd_762x51_Mag",
+        "ammo": "B_762x51_Ball",
+        "name": "10Rnd 7.62x51 Magazine",
+        "initSpeed": 800,
+        "airFriction": -0.00096,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_LRR_F",
+    "name": "M200 Intervention",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "7Rnd_408_Mag",
+        "ammo": "B_408_Ball",
+        "name": ".408 7Rnd Mag",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_GM6_F",
+    "name": "GM6 Lynx",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "5Rnd_127x108_Mag",
+        "ammo": "B_127x108_Ball",
+        "name": "12.7mm 5Rnd Mag",
+        "initSpeed": 820,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_127x108_APDS_Mag",
+        "ammo": "B_127x108_APDS",
+        "name": "12.7mm 5Rnd APDS Mag",
+        "initSpeed": 1060,
+        "airFriction": -0.00036,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "BWA3_G28_Standard",
+    "name": "G28 E2 (Standard)",
+    "mod": "BWMod",
+    "magazines": [
+      {
+        "type": "BWA3_10Rnd_762x51_G28",
+        "ammo": "BWA3_B_762x51_Ball",
+        "name": "G28 7.62x51mm 10Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_762x51_G28_Tracer",
+        "ammo": "BWA3_B_762x51_Ball",
+        "name": "G28 7.62x51mm 10Rnd Mag (Tracer)",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_762x51_G28_Tracer_Dim",
+        "ammo": "BWA3_B_762x51_Ball_Tracer_Dim",
+        "name": "G28 7.62x51mm 10Rnd Mag (IR-DIM)",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_762x51_G28_SD",
+        "ammo": "BWA3_B_762x51_Ball_SD",
+        "name": "G28 7.62x51mm 10Rnd Mag (SD)",
+        "initSpeed": 320,
+        "airFriction": -0.00048,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_762x51_G28_AP",
+        "ammo": "BWA3_B_762x51_Ball_AP",
+        "name": "G28 7.62x51mm 10Rnd Mag (AP)",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_762x51_G28_LR",
+        "ammo": "BWA3_B_762x51_Ball_LR",
+        "name": "G28 7.62x51mm M118LR 10Rnd Mag (LR)",
+        "initSpeed": 750,
+        "airFriction": -0.000204,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "BWA3_G82",
+    "name": "G82",
+    "mod": "BWMod",
+    "magazines": [
+      {
+        "type": "BWA3_10Rnd_127x99_G82",
+        "ammo": "BWA3_B_127x99_Ball",
+        "name": "G82 12.7x99mm 10Rnd Mag",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_Tracer",
+        "ammo": "BWA3_B_127x99_Ball",
+        "name": "G82 12.7x99mm 10Rnd Mag (Tracer)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_Tracer_Dim",
+        "ammo": "BWA3_B_127x99_Ball_Tracer_Dim",
+        "name": "G82 12.7x99mm 10Rnd Mag (IR-DIM)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_SD",
+        "ammo": "BWA3_B_127x99_Ball_SD",
+        "name": "G82 12.7x99mm 10Rnd Mag (SD)",
+        "initSpeed": 320,
+        "airFriction": -0.00028,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_AP",
+        "ammo": "BWA3_B_127x99_Ball_AP",
+        "name": "G82 12.7x99mm 10Rnd Mag (AP)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_AP_Tracer",
+        "ammo": "BWA3_B_127x99_Ball_AP",
+        "name": "G82 12.7x99mm 10Rnd Mag (AP Tracer)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_Raufoss",
+        "ammo": "BWA3_B_127x99_Ball_Raufoss",
+        "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_Raufoss_Tracer",
+        "ammo": "BWA3_B_127x99_Ball_Raufoss",
+        "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss Tracer)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "BWA3_10Rnd_127x99_G82_Raufoss_Tracer_Dim",
+        "ammo": "BWA3_B_127x99_Ball_Raufoss_Tracer_Dim",
+        "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss IR-DIM)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "Trixie_M24",
+    "name": "M24 w/ Harris Bipod",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_5x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "5Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "Trixie_AWM338",
+    "name": "AWM .338 w/ Harris Bipod",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_5x338_Mag",
+        "ammo": "Trixie_338_Ball",
+        "name": "5Rnd .338 Lapua Magnum",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "Trixie_M14DMR_Clean_Black",
+    "name": "M14 DMR",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_20x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "20Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "Trixie_M40A3_Clean",
+    "name": "M40A3",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_5x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "5Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "Trixie_M107_Black",
+    "name": "Barret M107",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_10x127_mag",
+        "ammo": "B_127x108_Ball",
+        "name": "10Rnd 12.7x99mm",
+        "initSpeed": 820,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "Trixie_M110_NG_Black",
+    "name": "M110 SASS",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_20x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "20Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "RH_m110",
+    "name": "M110",
+    "mod": "RH M4/M16 Pack",
+    "magazines": [
+      {
+        "type": "RH_20Rnd_762x51_M80A1",
+        "ammo": "RH_762x51_B_M80A1",
+        "name": "7.62mm 20Rnd M110 Mag M80A1",
+        "initSpeed": 784,
+        "airFriction": -0.00085536,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_Mk316LR",
+        "ammo": "RH_762x51_B_Mk316LR",
+        "name": "7.62mm 20Rnd M110 Mag Mk316LR",
+        "initSpeed": 784,
+        "airFriction": -0.00077634,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_LFMJSB",
+        "ammo": "RH_762x51_B_LFMJSB",
+        "name": "7.62mm 20Rnd M110 Mag LFMJSB",
+        "initSpeed": 339.852,
+        "airFriction": -0.00049784,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "rhs_weap_XM2010",
+    "name": "M2010 ESR",
+    "mod": "RHS: United States Armed Forces",
+    "magazines": [
+      {
+        "type": "rhsusf_5Rnd_300winmag_xm2010",
+        "ammo": "rhsusf_B_300winmag",
+        "name": "5Rnd. .300 Winchester Magnum",
+        "initSpeed": 869,
+        "airFriction": -0.0007034,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "hlc_rifle_samr2",
+    "name": "RRA LAR-15",
+    "mod": "HLC AR15 Pack",
+    "magazines": [
+      {
+        "type": "30Rnd_556x45_Stanag",
+        "ammo": "B_556x45_Ball",
+        "name": "5.56mm 30Rnd Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "hlc_30rnd_556x45_EPR",
+        "ammo": "HLC_556NATO_EPR",
+        "name": "STANAG Mag (EPR) 5.56mm",
+        "initSpeed": 960.12,
+        "airFriction": -0.00115438,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "hlc_30rnd_556x45_SOST",
+        "ammo": "HLC_556NATO_SOST",
+        "name": "STANAG Mag (SOST) 5.56mm",
+        "initSpeed": 950.366,
+        "airFriction": -0.00128176,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "hlc_30rnd_556x45_SPR",
+        "ammo": "HLC_556NATO_SPR",
+        "name": "STANAG Mag (SPR) 5.56mm",
+        "initSpeed": 838.2,
+        "airFriction": -0.00108679,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "hlc_50rnd_556x45_EPR",
+        "ammo": "HLC_556NATO_EPR",
+        "name": "X-15 STANAG Mag (EPR) 5.56mm",
+        "initSpeed": 960.12,
+        "airFriction": -0.00115438,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "30Rnd_556x45_Stanag_Tracer_Red",
+        "ammo": "B_556x45_Ball_Tracer_Red",
+        "name": "5.56mm 30Rnd Tracer Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "hlc_30rnd_556x45_S",
+        "ammo": "HLC_556NATO_EPR",
+        "name": "STANAG Mag (Subsonic) 5.56mm",
+        "initSpeed": 340,
+        "airFriction": -0.00115438,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "Trixie_MK12",
+    "name": "Mk12 SPR (Black)",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "30Rnd_556x45_Stanag",
+        "ammo": "B_556x45_Ball",
+        "name": "5.56mm 30Rnd Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "30Rnd_556x45_Stanag_Tracer_Red",
+        "ammo": "B_556x45_Ball_Tracer_Red",
+        "name": "5.56mm 30Rnd Tracer Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "RH_SR25EC",
+    "name": "SR25EC",
+    "mod": "RH M4/M16 Pack",
+    "magazines": [
+      {
+        "type": "RH_20Rnd_762x51_M80A1",
+        "ammo": "RH_762x51_B_M80A1",
+        "name": "7.62mm 20Rnd M110 Mag M80A1",
+        "initSpeed": 784,
+        "airFriction": -0.00085536,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_Mk319",
+        "ammo": "RH_762x51_B_Mk319",
+        "name": "7.62mm 20Rnd SR25EC Mag Mk319",
+        "initSpeed": 784,
+        "airFriction": -0.00111169,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_LFMJSB",
+        "ammo": "RH_762x51_B_LFMJSB",
+        "name": "7.62mm 20Rnd M110 Mag LFMJSB",
+        "initSpeed": 339.852,
+        "airFriction": -0.00049784,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "arifle_mas_g3",
+    "name": "G3",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_hk417",
+    "name": "HK417",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_ksvk",
+    "name": "KSVK",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_127x108_mag",
+        "ammo": "B_mas_127x99_Ball",
+        "name": "5rnd 12.7mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x108_dem_mag",
+        "ammo": "B_mas_127x99_dem_Ball",
+        "name": "5rnd 12.7mm Demo Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x108_T_mag",
+        "ammo": "B_mas_127x99_Ball_T",
+        "name": "5rnd 12.7mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_127x108_Mag",
+        "ammo": "B_127x108_Ball",
+        "name": "12.7mm 5Rnd Mag",
+        "initSpeed": 820,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "arifle_mas_lee",
+    "name": "Lee-Enfield No4",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "5rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "5rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_lrr",
+    "name": "LRR AWM",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "10Rnd_mas_338_Stanag",
+        "ammo": "B_mas_338_Ball",
+        "name": "10rnd 338 Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "10Rnd_mas_338_T_Stanag",
+        "ammo": "B_mas_338_Ball_T",
+        "name": "10rnd 338 Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_ebr",
+    "name": "M14 EBR",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "arifle_mas_m14",
+    "name": "M14 Old",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_m24",
+    "name": "M24",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "5rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "5rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_m107",
+    "name": "M107",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_127x99_Stanag",
+        "ammo": "B_mas_127x99_Ball",
+        "name": "10rnd 12.7mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x99_dem_Stanag",
+        "ammo": "B_mas_127x99_dem_Ball",
+        "name": "10rnd 12.7mm Demo Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x99_T_Stanag",
+        "ammo": "B_mas_127x99_Ball_T",
+        "name": "10rnd 12.7mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_m110",
+    "name": "M110",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_mk17s",
+    "name": "SCAR-H Marksman",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_sr25",
+    "name": "SR25",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_svd",
+    "name": "SVD Dragunov",
+    "mod": "Massi's SF Weapons",
+    "magazines": [
+      {
+        "type": "10Rnd_mas_762x54_mag",
+        "ammo": "B_mas_762x54_Ball",
+        "name": "10rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "10Rnd_mas_762x54_T_mag",
+        "ammo": "B_mas_762x54_Ball_T",
+        "name": "10rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "test",
+    "name": "Test",
+    "mod": "Test",
+    "magazines": [
+      {
+        "type": "test",
+        "ammo": "test",
+        "name": "test",
+        "initSpeed": 500,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  }
+]
